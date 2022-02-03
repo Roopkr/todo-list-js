@@ -1,0 +1,92 @@
+body {
+    margin: 0%;
+    font-family: 'Century Gothic';
+    background: rgb(23, 23, 34);
+}
+
+.top-img {
+    height: 50vh;
+    background: linear-gradient(to right, rgba(4, 59, 240, 0.596), rgba(225, 3, 245, 0.486)), url(./images/background.jpg) no-repeat center center;
+    background-size: cover;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 900;
+    font-size: 3em;
+    word-spacing: 0.3em;
+    letter-spacing: 0.2em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 0.5fr;
+    box-shadow: 10px 10px 2em 1px #000000;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 0.5em;
+}
+
+.input {
+    font-family: 'Century Gothic';
+    border-radius: 10px;
+    border: none;
+    width: 20vw;
+    height: 3vh;
+}
+
+.input::placeholder {
+    font-family: 'Century Gothic';
+    text-align: center;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+li {
+    color: white;
+}
+
+.delete {
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    margin-left: auto;
+}
+
+.display-wrapper {
+    margin-top: -3em;
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.listElement {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.9rem 2rem;
+    gap: 2rem;
+    color: white;
+    justify-content: center;
+    background-color: hsl(235, 24%, 19%);
+    border-color: white;
+    border-width: 2em;
+    margin: 1px 20vw;
+    /* width: 50vh; */
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    z-index: 10;
+}
